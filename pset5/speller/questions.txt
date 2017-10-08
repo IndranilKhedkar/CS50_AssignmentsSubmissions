@@ -1,0 +1,7 @@
+0.  It is the longest word in the English language. It refers to a lung disease caused by silica dust.
+1.  getrusage() returns resource usage measures for who.
+2.  16
+3.  TODO
+4.  TODO
+5.  TODO
+6.  We are using pointer to constant charecter to avoid changes to the input word and dictionary
