@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Log In
+{% endblock %}
+
+{% block main %}
+<br/>
+<div>
+    <h3>Stock Quote Details</h3>
+</div>
+<br/>
+<br/>
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+        <tr>
+          <th>Name</th>
+          <th>Symbol</th>
+          <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>{{name}}</td>
+          <td>{{symbol}}</td>
+          <td>{{price}}</td>
+        </tr>
+    </tbody>
+</table>
+{% endblock %}

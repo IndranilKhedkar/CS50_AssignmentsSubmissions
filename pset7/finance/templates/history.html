@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History Details
+{% endblock %}
+
+{% block main %}
+<br/>
+<div>
+    <h3>Stock Purchase/Sell History Details</h3>
+</div>
+<br/>
+<br/>
+<table class="table table-bordered table-striped table-hover" style="text-align:center;">
+    <thead>
+        <tr>
+          <th>Symbol</th>
+          <th>Quantity</th>
+          <th>Purchase Price</th>
+          <th>Date/Time</th>
+          <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in history %}
+        <tr>
+          <td>{{item["symbol"]}}</td>
+          <td>{{item["quantity"]}}</td>
+          <td>{{item["purchase_price"]}}</td>
+          <td>{{item["purchase_time"]}}</td>
+          <td>{{"Bought" if item["hold_flag"] == 1 else "Sold"}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

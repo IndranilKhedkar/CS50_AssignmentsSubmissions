@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+   <!-- Header -->
+    <header class="intro-header">
+      <div class="container">
+        <div class="intro-message">
+            <h2>C$50 Finance, your guide to Finanace World!!</h2>
+            <hr class="intro-divider">
+            <br/>
+        </div>
+      </div>
+    </header>
+    <body>
+        <h3>Stock You Have</h3>
+        <table class="table table-bordered table-striped table-hover">
+            <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Symbol</th>
+                  <th>Quantity</th>
+                  <th>Current Price</th>
+                  <th>Total Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in model.Stocks %}
+                <tr>
+                  <td>{{item.Name}}</td>
+                  <td>{{item.Symbol}}</td>
+                  <td>{{item.Quantity}}</td>
+                  <td>{{item.Current_Price}}</td>
+                  <td>{{item.Quantity*item.Current_Price}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <div style="text-align:left;font-size:16px;">
+            <p><b>Current Cash Balance:&nbsp;</b>{{model.Cash}}</p>
+            <p><b>Grand Total:&nbsp;</b>{{model.Grand_Total}}</p>
+        </div>
+    </body>
+{% endblock %}
