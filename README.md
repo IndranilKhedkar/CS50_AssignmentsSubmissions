@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+## **Welcome to CS50_Assignments Solutions**
 
-You can use the [editor on GitHub](https://github.com/IndranilKhedkar/CS50_AssignmentsSubmissions/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is my personal repository which contains solutions for CS50 - Introduction to Computer Science assignments.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Course Details
+Offered By: Harvered University
+Instructor: David Malan
+Course Url: https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/course/
+Course IDE Url:https://ide.cs50.io/
+Course Refrence Url: https://reference.cs50.net/
+Course Syllabus Url: http://docs.cs50.net/2017/x/syllabus.html
 
-### Markdown
+Syllabus:
+1. Week 0 - Scratch
+2. Week 1 - C
+3. Week 2 - Arrays
+4. Week 3 - Algorithms
+5. Week 4 - Memory
+6. Week 5 - Data Structures
+7. Week 6 - HTTP
+8. Week 7 - Machine Learning
+9. Week 8 - Python
+10. Week 9 - SQL
+11. Week 10 - JavaScript
+12. Week 11 - Final Project
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/IndranilKhedkar/CS50_AssignmentsSubmissions/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
